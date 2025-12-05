@@ -1,0 +1,45 @@
+.container{
+    height: 500px;
+    width: 1000px;
+    background-color: goldenrod;
+    border: 1px solid black;
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr ; we can also write this in short given below */
+    grid-template-columns: repeat(4,100px); 
+    /* grid-template-rows: 1fr 1fr 1fr ; we can also write this in repeat */
+     grid-template-rows: repeat(3,100px);
+    /* grid-template-areas: "header header header header"
+                        "main main .sidebar"
+                         "footer footer footer footer"; */
+    gap: 10px;
+    justify-items: stretch;
+    align-items: stretch;
+    justify-content: center;
+    align-content: center;
+}
+.item{
+    /* height: 100px;
+    width: 100px; */
+    background-color: silver;
+    border: 1px solid black;
+    color: white;
+    text-align: center;
+    align-content: center;
+
+
+}
+/* .item1{
+    grid-area: header;
+
+
+
+}
+.item2{
+    grid-area: main;
+}
+.item3{
+    grid-area: sidebar;
+}
+.item4{
+    grid-area: footer;
+} */
