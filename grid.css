@@ -24,7 +24,7 @@
     border: 1px solid black;
     color: white;
     text-align: center;
-    /* align-content: center; */
+    align-content: center;
 
 
 }
@@ -43,3 +43,8 @@
 .item4{
     grid-area: footer;
 } */
+ @media(max-width:1000px){
+    body{
+        background-color: blueviolet;
+    }
+ }
